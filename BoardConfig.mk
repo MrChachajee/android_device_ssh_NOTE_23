@@ -114,3 +114,14 @@ TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 TW_INCLUDE_REPACKTOOLS := true
+
+# Partition Info
+BOARD_VENDOR_BOOTIMAGE_PARTITION_SIZE := 67108864 # (64MB is standard, check your stock rom)
+BOARD_BOOT_HEADER_VERSION := 4
+
+# Move Recovery to Vendor Boot (Crucial for Android 13/14)
+BOARD_MOVE_RECOVERY_RESOURCES_TO_VENDOR_BOOT := true
+BOARD_INCLUDE_RECOVERY_RAMDISK_IN_VENDOR_BOOT := true
+
+# MediaTek Specific
+BOARD_HAS_MTK_HARDWARE := true
