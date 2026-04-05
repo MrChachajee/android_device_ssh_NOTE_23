@@ -11,4 +11,4 @@ PRODUCT_MAKEFILES := \
 COMMON_LUNCH_CHOICES := \
     omni_NOTE_23-user \
     omni_NOTE_23-userdebug \
-    omni_NOTE_23-eng
+    omni_NOTE_23-trunk_staging-eng
